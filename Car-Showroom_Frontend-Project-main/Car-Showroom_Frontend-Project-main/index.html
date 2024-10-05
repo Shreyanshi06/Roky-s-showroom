@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>Showroom</title>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span><img src="IMAGE/Designer (1).png" length="20px" width="20px"></span>Roky</a>
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#vehicles">Vehicles</a>
+            <a href="#services">Services</a>
+            <a href="#featured">Featured</a>
+            <a href="#reviews">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <span  class="fas fa-times" id="close-login-form"></span>
+        <form action="">
+            <h3>User Login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>Forget your password <a href="#">Click here</a></p>
+            <input type="Submit" value="Login now" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Don't have an account <a href="#">Create one</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">Find your car</h1>
+        <img class="home-parallax" data-speed="5" src="car-inventory.png" alt="">
+        <a href="#" class="btn home-parallax" data-speed="7">Explore cars</a>
+    </section>
+
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>Branches</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>Cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>590+</h3>
+                <p>Happy  Clients</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>890+</h3>
+                <p>New cars</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+        <h1 class="heading"> Popular <span>Vehicles</span></h1>
+       <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="2019-Porsche-911-front_11248_032_2400x1800_0Q.png" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2024 
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img 2.jpeg" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img 3.jpeg" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img 4.jpg" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="download (1).jpeg" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="download (2).jpeg" alt="">
+                <div class="content">
+                    <h3>New model</h3>
+                    <div class="price"> <span>Price: </span> $65000</div>
+                    <p>
+                        New
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Automatic
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 183mph
+                    </p>
+                    <a href="#" class="btn">Check out</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+       </div>
+
+
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading"> Our <span> Services </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Car Selling</h3>
+                <p>Don't miss your chance to own this exceptional 2023 [Car Make] [Car Model]. Contact us today to schedule a test drive and experience the thrill for yourself. Our knowledgeable team is here to assist you with any questions and guide you through the buying process. </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Parts Repair</h3>
+                <p>Schedule your car parts repair service with [Your Car Dealership Name] today, and trust us to get your vehicle back on the road in optimal condition. Contact our service team to book an appointment or inquire about our range of repair services. Your car deserves the best .</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Car Insurance</h3>
+                <p>Don't leave your vehicle's protection to chance. Contact [Your Car Dealership Name]'s insurance experts today to discuss your car insurance needs. We're committed to providing you with the peace of mind you deserve on every journey. Your safety and security are our top priorities!.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Battery Replacement</h3>
+                <p>Is your vehicle showing signs of a weak or failing battery? Don't let a dead battery leave you stranded. Contact [Your Car Dealership Name] today to schedule your battery inspection and replacement service. We're here to ensure your vehicle starts reliably and keeps you confidence.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Oil Change</h3>
+                <p>Don't delay your vehicle's much-needed oil change. Contact [Your Car Dealership Name] today to schedule your oil change service. Our goal is to help you maintain the heart of your vehicle, ensuring it performs at its best mile after mile. Trust us for all for your support, and time.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support </h3>
+                <p>At [Your Car Dealership Name], our commitment to your satisfaction extends beyond regular business hours. Experience the convenience and peace of mind of 24/7 support by choosing us for all your automotive needs. We're here to serve you around the clock,& good service</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span> Featured </span> cars</h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="photo 1.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 2.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 3.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 4.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="photo 5.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$55,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 10.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$65,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 8.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$60,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="photo 9.jpeg" alt="">
+                    <h3>New Model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$75,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+   <div class="newsletter">
+
+    <h3>Subscribe for latest updates</h3>
+    <p>
+        "Driving Dreams, Delivering Quality" </p>
+    <form action="">
+        <input type="email" placeholder="enter your email" name="" id="">
+        <input type="submit" class="subscribe" name="" id="">
+    </form>
+   </div>
+
+
+   <section class="reviews" id="reviews">
+    <h1 class="heading"> Client's <span> review </span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="review1.jpeg" alt="">
+                <div class="content">
+                    <p>"What an incredible car buying experience! From browsing the website to driving my new car off the lot, everything was seamless. The selection was impressive, the staff was knowledgeable, and the pricing was fair. I'm one happy customer!"</p>
+                    <h3>John Wick</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="review2.jpeg" alt="">
+                <div class="content">
+                    <p>"I can't thank the team at [Your Car Dealership Name] enough for making my car purchase a breeze. They helped me find the perfect vehicle that suited my needs and budget. Their customer service is top-notch, and I felt like a valued customer throughout the entire process."</p>
+                    <h3>show yeter</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="review3.jpeg" alt="">
+                <div class="content">
+                    <p>"I was hesitant about buying a car online, but [Your Car Dealership Name] exceeded my expectations. The website was user-friendly, and the live chat support was incredibly helpful. I found the car I wanted, and the delivery was prompt and hassle-free. Highly recommended!" </p>
+                    <h3>Joe stun</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="review7.jpeg" alt="">
+                <div class="content">
+                    <p>"I've bought many cars in my lifetime, and this was by far the best experience. [Your Car Dealership Name] provided a transparent and stress-free buying process. The car was in pristine condition, and the paperwork was a breeze. I'll be back for my next vehicle!"</p>
+                    <h3>vaniya chef</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="review5.jpeg" alt="">
+                <div class="content">
+                    <p>"I can't thank the team at [Your Car Dealership Name] enough for their patience and professionalism. They answered all my questions, helped me secure financing, and even arranged for home delivery. The attention to detail and commitment to customer satisfaction were truly remarkable."</p>
+                    <h3>John deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="review6.jpeg" alt="">
+                <div class="content">
+                    <p>"If you're in the market for a new car, [Rishu] is the place to go. The variety of vehicles available is impressive, and their website is easy to navigate. The whole process was straightforward, and I drove away with my dream car. Thank you for the exceptional service!"</p>
+                    <h3>Eza lays</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+
+   <h1 class="heading"> <span>Contact</span> us</h1>
+
+
+   <div class="row">
+
+    <iframe class="map" src="https://www.google.com/maps/place/Gorakhpur,+Uttar+Pradesh/@26.7461034,83.3168691,12.82z/data=!4m6!3m5!1s0x3991446a0c332489:0x1ff3f97fdcc6bfa2!8m2!3d26.7605545!4d83.3731675!16zL20vMDRicXZ2?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <form action="">
+        <h3>Get in touch</h3>
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="number" class="box">
+        <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+   </div>
+   </section>
+
+   <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Our Branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> India</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> France</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Africa</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Australia</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Russia</a>
+        </div>
+        <div class="box">
+        <h3>Web-Interface</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> vehicles</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> services</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> featured</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> reviews</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact us</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 91+6392504302</a>
+            <a href="#"> <i class="fas fa-phone"></i>91+6393504302</a>
+            <a href="https://mail.google.com/mail/u/0/#search/sharmarokey025%40gmail.com?compose=new"> <i class="fas fa-envelope"></i> sharmarockey025@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>Gorakhpur-Uttar Pradesh</a>
+        </div>
+
+        <div class="box">
+            <h3>Online Contect</h3>
+            <a href="https://www.facebook.com/people/Rohit-Sharma/pfbid0TCeKdphLepHQ98v6UrsZQCVc4sMCMYuBvy5TaMayPnRie4LbqLG4iKkexa6eQmANl/?mibextid=ZbWKwL"> <i class="fab fa-facebook"></i> facebook</a>
+            <a href="https://x.com/Rohitsh6392"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="https://www.instagram.com/mr_rk_sharma_6342/"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="https://www.linkedin.com/posts/tata-technologies_hiringnow-engineeringabetterworld-jointventure-activity-7234497317414797313-oexP?utm_source=share&utm_medium=member_android"> <i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a>
+        </div>
+    </div>
+
+    <div class="credit"> Created by Rohit Sharma.all rights reserved! @2024
+        <p>Uttar Pradesh-India</p>
+    </div>
+   </section>
+
+
+
+
+
+
+
+     
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
